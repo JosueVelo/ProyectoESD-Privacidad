@@ -75,5 +75,7 @@ Las funcionalidades mencionadas son esenciales para **SalaryBoost** al cumplir c
 
 Estas medidas garantizan que **SalaryBoost** no solo protege la privacidad de los empleados, sino que también cumple con las normativas internacionales de protección de datos, como el RGPD.
 
+---
+
 ## D. Conclusión 
 En resumen, SalaryBoost garantiza la privacidad de los empleados mediante técnicas como pseudonimización, eliminación de datos sensibles y privacidad diferencial, alineándose con el RGPD. Las funcionalidades clave, como la capacidad de modificar contraseñas, actualizar datos y eliminar registros, permiten a los empleados controlar su información personal, asegurando su precisión, seguridad y limitación del almacenamiento. Estas medidas protegen la privacidad de los empleados y aseguran el cumplimiento de normativas internacionales de protección de datos.
