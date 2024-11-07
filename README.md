@@ -2,7 +2,7 @@
 
 ---
 
-## Clasificación de los Datos de Empleados
+## A. Clasificación de los Datos de Empleados
 
 ### 1. Datos Personales
 - **FirstName**: Nombre del empleado.
@@ -27,3 +27,24 @@
 
 ### 4. Datos Confidenciales
 - **monthly_salary**: Salario mensual (considerado confidencial debido a su naturaleza económica).
+
+## B. Técnicas de Privacidad 
+
+1. **Pseudonimización**:
+   - **Nombres**: Se reemplazaron por "Empleado" seguido de su ID.
+   - **Correos electrónicos**: Enmascarada la parte local, manteniendo el dominio.
+
+2. **Eliminación de datos sensibles**:
+   - Se eliminaron columnas como `LastName`, `JobFunctionDescription` y `Title` para reducir riesgos de identificación.
+
+3. **Mapeo y anonimización de categorías**:
+   - Variables como `EmployeeType`, `PayZone`, `GenderCode`, `Performance Score`, `RaceDesc`, y `MaritalDesc` fueron mapeadas a valores más generales o codificados.
+
+4. **Agregación de edad**:
+   - La fecha de nacimiento fue convertida en rangos de edad, evitando la divulgación de la edad exacta.
+
+5. **Privacidad diferencial**:
+   - Se utilizó el algoritmo Laplaciano para calcular el salario promedio (`BoundedMean`), añadiendo ruido controlado para proteger la privacidad de los salarios individuales.
+
+Estas técnicas permiten procesar y analizar los datos de empleados manteniendo su privacidad y utilidad para análisis.
+
