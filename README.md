@@ -47,6 +47,8 @@
 
 5. **Privacidad diferencial**:
    - Se utilizó el algoritmo Laplaciano para calcular el salario promedio (`BoundedMean`), añadiendo ruido controlado para proteger la privacidad de los salarios individuales.
+   - 
+![image](https://github.com/user-attachments/assets/d47d1846-0d75-46e0-af3d-90618425e111)
 
 Estas técnicas permiten procesar y analizar los datos de empleados manteniendo su privacidad y utilidad para análisis.
 
