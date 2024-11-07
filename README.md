@@ -16,8 +16,8 @@
 
 ### 2. Datos Sensibles
 - **Password**: Contraseña del empleado (datos de seguridad).
-- **Performance Score**: Puntuación de desempeño (puede ser sensible dependiendo del contexto).
-- **Current Employee Rating**: Calificación del empleado (puede considerarse sensible dependiendo del contexto).
+- **Performance Score**: Puntuación de desempeño.
+- **Current Employee Rating**: Calificación del empleado.
 
 ### 3. Datos Públicos
 - **EmployeeType**: Tipo de empleado (puede ser público, como si es permanente o temporal).
