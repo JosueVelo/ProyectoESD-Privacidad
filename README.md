@@ -1,4 +1,4 @@
-# Proyecto Ética y Seguridad de Datos 
+# Proyecto Final - Ética y Seguridad de Datos 
 ---
 ## Sección de Privacidad 
 ---
@@ -136,8 +136,8 @@ A pesar de las medidas implementadas, existen riesgos residuales asociados a la 
 
 **2. Transparencia:** La transparencia en los algoritmos implica que los usuarios comprendan cómo y por qué se toman las decisiones. En el contexto de Salaryboost, es fundamental que los usuarios comprendan cómo se calculan sus estimaciones salariales, qué datos están siendo utilizados y de qué manera estos influyen en las predicciones.
 
-- **Reflexión ética:** Para promover la transparencia, `Salaryboost` debe proporcionar explicaciones claras y accesibles de cómo funciona su algoritmo, cómo se utilizan los datos personales y cómo se genera la predicción salarial. Esto no solo fomenta la confianza en la plataforma, sino que también permite a los usuarios tomar decisiones informadas sobre compartir sus datos. La `explicabilidad` es un principio ético clave en la inteligencia artificial que debería estar en el centro de cualquier sistema algorítmico.
+**Reflexión ética:** Para promover la transparencia, `Salaryboost` debe proporcionar explicaciones claras y accesibles de cómo funciona su algoritmo, cómo se utilizan los datos personales y cómo se genera la predicción salarial. Esto no solo fomenta la confianza en la plataforma, sino que también permite a los usuarios tomar decisiones informadas sobre compartir sus datos. La `explicabilidad` es un principio ético clave en la inteligencia artificial que debería estar en el centro de cualquier sistema algorítmico.
 
 **3. Consentimiento:** El `consentimiento` implica que los usuarios deben tener el control sobre sus propios datos y entender cómo se utilizarán. Para `Salaryboost,` esto significa que antes de recopilar o utilizar los datos personales de los usuarios (por ejemplo, información sobre salario, historial laboral, etc.), debe obtenerse el consentimiento explícito de los mismos.
 
-- **Reflexión ética:** `Salaryboost` debe asegurarse de que los usuarios den un consentimiento informado sobre el uso de sus datos. Esto incluye informarles sobre cómo se utilizarán sus datos, qué implicaciones tiene la recopilación de estos, y ofrecerles la opción de retirar su consentimiento en cualquier momento. Además, debe garantizar la `protección de datos` mediante el uso de `políticas de privacidad claras` y prácticas de seguridad de datos robustas.
+**Reflexión ética:** `Salaryboost` debe asegurarse de que los usuarios den un consentimiento informado sobre el uso de sus datos. Esto incluye informarles sobre cómo se utilizarán sus datos, qué implicaciones tiene la recopilación de estos, y ofrecerles la opción de retirar su consentimiento en cualquier momento. Además, debe garantizar la `protección de datos` mediante el uso de `políticas de privacidad claras` y prácticas de seguridad de datos robustas.
