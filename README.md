@@ -122,3 +122,22 @@ A pesar de las medidas implementadas, existen riesgos residuales asociados a la 
 - **Monitoreo Continuo de la Plataforma:** Implementar sistemas de monitoreo en tiempo real para detectar posibles vulnerabilidades o accesos no autorizados.
 - **Revisión y Mejora de Controles de Seguridad:** Establecer un ciclo de revisión regular de los controles de seguridad, incluyendo la autenticación y los accesos, para garantizar que sean adecuados a las amenazas emergentes.
 - **Revisión de Políticas de Privacidad:** Asegurarse de que las políticas de privacidad y protección de datos sean revisadas y actualizadas con regularidad para cumplir con las leyes y regulaciones aplicables (como el RGPD).
+
+---
+### B. Reflexiones sobre los temas éticos para SalaryBoost
+**1. Sesgo Algorítmico:** El sesgo algorítmico ocurre cuando un sistema automatizado toma decisiones que reflejan prejuicios o injusticias en función de los datos en los que fue entrenado. En el caso de Salaryboost, una plataforma que podría utilizar algoritmos para prever el salario potencial de un individuo en función de su formación, experiencia, habilidades y otros factores, es crucial identificar y mitigar cualquier sesgo en el algoritmo que pueda perpetuar desigualdades preexistentes.
+
+**Posibles fuentes de sesgo:**
+- **Datos históricos sesgados:** Si los datos utilizados para entrenar el algoritmo contienen sesgos de género, raza, orientación sexual u otros factores, el modelo podría reforzar estos sesgos al predecir el salario. Por ejemplo, si históricamente ciertos grupos han tenido menores salarios debido a discriminación, el algoritmo podría replicar esta disparidad.
+
+- **Selección de variables:** Las decisiones sobre qué variables incluir en el algoritmo (como la educación, la experiencia laboral, etc.) pueden estar influenciadas por prejuicios sociales y culturales. Si las variables seleccionadas no reflejan un contexto justo o equilibrado, el algoritmo puede favorecer ciertos perfiles sobre otros.
+
+**Reflexión ética:** Es esencial que `Salaryboost` implemente procesos de `auditoría algorítmica` y realice `pruebas de sesgo` periódicas para asegurarse de que las recomendaciones salariales no estén perpetuando desigualdades injustas. También, debe considerar la implementación de `modelos de aprendizaje justo`, que minimicen las disparidades en las predicciones salariales para grupos históricamente desfavorecidos.
+
+**2. Transparencia:** La transparencia en los algoritmos implica que los usuarios comprendan cómo y por qué se toman las decisiones. En el contexto de Salaryboost, es fundamental que los usuarios comprendan cómo se calculan sus estimaciones salariales, qué datos están siendo utilizados y de qué manera estos influyen en las predicciones.
+
+**Reflexión ética:** Para promover la transparencia, `Salaryboost` debe proporcionar explicaciones claras y accesibles de cómo funciona su algoritmo, cómo se utilizan los datos personales y cómo se genera la predicción salarial. Esto no solo fomenta la confianza en la plataforma, sino que también permite a los usuarios tomar decisiones informadas sobre compartir sus datos. La `explicabilidad` es un principio ético clave en la inteligencia artificial que debería estar en el centro de cualquier sistema algorítmico.
+
+**3. Consentimiento:** El `consentimiento` implica que los usuarios deben tener el control sobre sus propios datos y entender cómo se utilizarán. Para `Salaryboost,` esto significa que antes de recopilar o utilizar los datos personales de los usuarios (por ejemplo, información sobre salario, historial laboral, etc.), debe obtenerse el consentimiento explícito de los mismos.
+
+**Reflexión ética:** `Salaryboost` debe asegurarse de que los usuarios den un consentimiento informado sobre el uso de sus datos. Esto incluye informarles sobre cómo se utilizarán sus datos, qué implicaciones tiene la recopilación de estos, y ofrecerles la opción de retirar su consentimiento en cualquier momento. Además, debe garantizar la `protección de datos` mediante el uso de `políticas de privacidad claras` y prácticas de seguridad de datos robustas.
