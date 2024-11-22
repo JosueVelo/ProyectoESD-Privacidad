@@ -1,6 +1,6 @@
 # Proyecto Ética y Seguridad de Datos / Privacidad 
 ---
-## A. Clasificación de los Datos de Empleados
+### A. Clasificación de los Datos de Empleados
 
 ### 1. Datos Personales
 - **FirstName**: Nombre del empleado.
