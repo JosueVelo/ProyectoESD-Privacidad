@@ -1,5 +1,6 @@
-# Proyecto Ética y Seguridad de Datos - Privacidad
+# Proyecto Ética y Seguridad de Datos
 
+## Privacidad
 ---
 
 ## A. Clasificación de los Datos de Empleados
@@ -32,23 +33,16 @@
 
 ## B. Técnicas de Privacidad - Datos
 
-1. **Pseudonimización**:
-   - **Nombres**: Se reemplazaron por "Empleado" seguido de su ID.
-   - **Correos electrónicos**: Enmascarada la parte local, manteniendo el dominio.
+1. **Anonimización:** Se eliminan completamente las columnas que contienen información identificable como `EmpID`, `FirstName` , `LastName`, `JobFunctionDescription`, `Title`, `Password`, `PayZone`, y `RaceDesc`. Esto elimina los datos personales que podrían identificar a los individuos directamente.
 
-2. **Eliminación de datos sensibles**:
-   - Se eliminaron columnas como `LastName`, `JobFunctionDescription` y `Title` para reducir riesgos de identificación.
+2. **Pseudonimización:** La columna `Email` es transformada aplicando un hash truncado (solo los primeros 5 caracteres del hash) del correo electrónico original, lo que asegura que no se pueda asociar el correo original a la persona, pero mantiene la estructura de correo (dominio) intacta.
 
-3. **Mapeo y anonimización de categorías**:
-   - Variables como `EmployeeType`, `PayZone`, `GenderCode`, `Performance Score`, `RaceDesc`, y `MaritalDesc` fueron mapeadas a valores más generales o codificados.
+4. **Privacidad Diferencial:** Se utiliza el algoritmo `BoundedMean` de la librería `pydp` para calcular un promedio diferencialmente privado sobre la columna `monthly_salary`. Esto introduce ruido controlado por el valor de `epsilon` para proteger la privacidad de los individuos en los datos.
 
-4. **Agregación de edad**:
-   - La fecha de nacimiento fue convertida en rangos de edad, evitando la divulgación de la edad exacta.
+5. **K-Anonimato:**
+- Se aplica la técnica de K-anonimato utilizando la librería `pycanon`. El código evalúa si el conjunto de datos cumple con el criterio de anonimato para las columnas de identificación cuasi (`QI`), como `Performance Score` y `Current Employee Rating`. Además, se define un atributo sensible (SA), en este caso, `monthly_salary`, que se protege en el análisis para asegurar que no se pueda identificar a individuos a partir de estos datos.
 
-5. **Privacidad diferencial**:
-   - Se utilizó el algoritmo Laplaciano para calcular el salario promedio (`BoundedMean`), añadiendo ruido controlado para proteger la privacidad de los salarios individuales.
-   - 
-![image](https://github.com/user-attachments/assets/d47d1846-0d75-46e0-af3d-90618425e111)
+- Las edades se agrupan en rangos predefinidos usando `pd.cut`, lo que anonimiza la edad exacta de los empleados y reduce la posibilidad de identificación. Esta categorización contribuye al fortalecimiento de la privacidad al evitar que la edad exacta se pueda conocer dentro de un grupo.
 
 Estas técnicas permiten procesar y analizar los datos de empleados manteniendo su privacidad y utilidad para análisis.
 
@@ -74,10 +68,10 @@ Las funcionalidades mencionadas son esenciales para **SalaryBoost** al cumplir c
 - **Precisión de los datos**: Permitir la modificación de datos garantiza que la información almacenada en el sistema esté siempre actualizada y sea precisa, cumpliendo con el principio de exactitud.
 - **Limitación del almacenamiento**: La opción de eliminar los datos de un empleado cuando ya no es necesario para el propósito original (cuando deja la empresa) asegura que la empresa no retenga información más allá de lo permitido por la ley.
 - **Seguridad de los datos**: La capacidad de modificar contraseñas, tanto por parte del empleado como del supervisor, asegura que el acceso a los datos personales esté protegido y que los datos no sean accesibles sin la debida autorización.
-
+- 
 Estas medidas garantizan que **SalaryBoost** no solo protege la privacidad de los empleados, sino que también cumple con las normativas internacionales de protección de datos, como el RGPD.
 
 ---
 
 ## D. Conclusión 
-En resumen, SalaryBoost garantiza la privacidad de los empleados mediante técnicas como pseudonimización, eliminación de datos sensibles y privacidad diferencial, alineándose con el RGPD. Las funcionalidades clave, como la capacidad de modificar contraseñas, actualizar datos y eliminar registros, permiten a los empleados controlar su información personal, asegurando su precisión, seguridad y limitación del almacenamiento. Estas medidas protegen la privacidad de los empleados y aseguran el cumplimiento de normativas internacionales de protección de datos.
+En resumen, SalaryBoost garantiza la privacidad de los empleados mediante técnicas como anonimización, pseudonimización, privacidad diferencial y K-Anonimato, alineándose con el RGPD. Las funcionalidades clave, como la capacidad de modificar contraseñas, actualizar datos y eliminar registros, permiten a los empleados controlar su información personal, asegurando su precisión, seguridad y limitación del almacenamiento. Estas medidas protegen la privacidad de los empleados y aseguran el cumplimiento de normativas internacionales de protección de datos.
