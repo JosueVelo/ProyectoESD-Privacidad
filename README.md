@@ -132,7 +132,7 @@ A pesar de las medidas implementadas, existen riesgos residuales asociados a la 
 
 - **Selección de variables:** Las decisiones sobre qué variables incluir en el algoritmo (como la educación, la experiencia laboral, etc.) pueden estar influenciadas por prejuicios sociales y culturales. Si las variables seleccionadas no reflejan un contexto justo o equilibrado, el algoritmo puede favorecer ciertos perfiles sobre otros.
 
-- **Reflexión ética:** Es esencial que `Salaryboost` implemente procesos de `auditoría algorítmica` y realice `pruebas de sesgo` periódicas para asegurarse de que las recomendaciones salariales no estén perpetuando desigualdades injustas. También, debe considerar la implementación de `modelos de aprendizaje justo`, que minimicen las disparidades en las predicciones salariales para grupos históricamente desfavorecidos.
+**Reflexión ética:** Es esencial que `Salaryboost` implemente procesos de `auditoría algorítmica` y realice `pruebas de sesgo` periódicas para asegurarse de que las recomendaciones salariales no estén perpetuando desigualdades injustas. También, debe considerar la implementación de `modelos de aprendizaje justo`, que minimicen las disparidades en las predicciones salariales para grupos históricamente desfavorecidos.
 
 **2. Transparencia:** La transparencia en los algoritmos implica que los usuarios comprendan cómo y por qué se toman las decisiones. En el contexto de Salaryboost, es fundamental que los usuarios comprendan cómo se calculan sus estimaciones salariales, qué datos están siendo utilizados y de qué manera estos influyen en las predicciones.
 
