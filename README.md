@@ -90,8 +90,6 @@ El flujo de los datos incluye:
 - **Uso de Datos:** Los supervisores utilizan estos datos para tomar decisiones relacionadas con el desempeño y compensación de los empleados.
 - **Transferencia de Datos:** Se utiliza cifrado para garantizar que los datos no sean interceptados durante el tránsito.
   
----
-
 #### 2. Identificación de Riesgos
 **Riesgos Potenciales:**
 - **Acceso No Autorizado:** Los datos podrían ser accedidos por usuarios no autorizados debido a fallos en la gestión de accesos o credenciales comprometidas.
@@ -99,8 +97,6 @@ El flujo de los datos incluye:
 - **Uso indebido de Datos:** Supervisores o empleados podrían modificar, eliminar o divulgar datos de forma inapropiada.
 - **Vulnerabilidades en la Transmisión de Datos:** A pesar del cifrado SSL, podría haber vulnerabilidades en la transmisión de datos o en puntos de acceso no protegidos.
 - **Violación de la Privacidad:** La exposición de datos personales (como salario o calificaciones) podría violar los derechos de privacidad de los empleados.
-
---- 
 
 #### 3. Evaluación de Impacto
 **1. Evaluación de la Necesidad y Proporcionalidad de la Recopilación de Datos** 
@@ -120,9 +116,7 @@ A pesar de las medidas implementadas, existen riesgos residuales asociados a la 
 - **Fugas de Datos:** Aunque se han tomado medidas para proteger los datos, siempre existe el riesgo de filtración de datos a través de vulnerabilidades imprevistas.
 - **Errores Humanos:** Los usuarios podrían accidentalmente modificar o divulgar información sensible debido a falta de capacitación o errores de manejo de contraseñas.
 
----
-
-#### D. Plan de Mitigación
+#### 4. Plan de Mitigación
 - **Monitoreo Continuo de la Plataforma:** Implementar sistemas de monitoreo en tiempo real para detectar posibles vulnerabilidades o accesos no autorizados.
 - **Revisión y Mejora de Controles de Seguridad:** Establecer un ciclo de revisión regular de los controles de seguridad, incluyendo la autenticación y los accesos, para garantizar que sean adecuados a las amenazas emergentes.
 - **Revisión de Políticas de Privacidad:** Asegurarse de que las políticas de privacidad y protección de datos sean revisadas y actualizadas con regularidad para cumplir con las leyes y regulaciones aplicables (como el RGPD).
