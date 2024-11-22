@@ -92,11 +92,11 @@ El flujo de los datos incluye:
   
 #### 2. Identificación de Riesgos
 **Riesgos Potenciales:**
-- **Acceso No Autorizado:** Los datos podrían ser accedidos por usuarios no autorizados debido a fallos en la gestión de accesos o credenciales comprometidas.
-- **Pérdida de Datos:** Pérdida de datos sensibles debido a fallos del sistema o incidentes de seguridad, como ataques de malware o ransomware.
-- **Uso indebido de Datos:** Supervisores o empleados podrían modificar, eliminar o divulgar datos de forma inapropiada.
-- **Vulnerabilidades en la Transmisión de Datos:** A pesar del cifrado SSL, podría haber vulnerabilidades en la transmisión de datos o en puntos de acceso no protegidos.
-- **Violación de la Privacidad:** La exposición de datos personales (como salario o calificaciones) podría violar los derechos de privacidad de los empleados.
+- *Acceso No Autorizado:* Los datos podrían ser accedidos por usuarios no autorizados debido a fallos en la gestión de accesos o credenciales comprometidas.
+- *Pérdida de Datos:* Pérdida de datos sensibles debido a fallos del sistema o incidentes de seguridad, como ataques de malware o ransomware.
+- *Uso indebido de Datos:* Supervisores o empleados podrían modificar, eliminar o divulgar datos de forma inapropiada.
+- *Vulnerabilidades en la Transmisión de Datos:* A pesar del cifrado SSL, podría haber vulnerabilidades en la transmisión de datos o en puntos de acceso no protegidos.
+- *Violación de la Privacidad:* La exposición de datos personales (como salario o calificaciones) podría violar los derechos de privacidad de los empleados.
 
 #### 3. Evaluación de Impacto
 **1. Evaluación de la Necesidad y Proporcionalidad de la Recopilación de Datos** 
@@ -104,33 +104,33 @@ El flujo de los datos incluye:
 La recopilación de datos en SalaryBoost se justifica en función de las necesidades empresariales: gestionar el rendimiento de los empleados, aplicar aumentos salariales y realizar seguimiento de la productividad. Sin embargo, se debe garantizar que la cantidad de datos recopilados sea proporcional al objetivo, evitando la recopilación excesiva de información personal.
 
 **2. Medidas para Mitigar los Riesgos Identificados** 
-- **Cifrado de Datos:** Utilización de certificados SSL para proteger la transmisión de datos. Se recomienda implementar protocolos de seguridad adicionales, como TLS, para fortalecer la protección de la transmisión de datos.
-- **Autenticación Multifactor (MFA):** La autenticación de usuarios mediante MFA proporciona una capa adicional de seguridad para prevenir el acceso no autorizado. Es recomendable revisar y actualizar el sistema MFA periódicamente para asegurar su efectividad.
-- **Gestión de Accesos y Roles:** Implementación de una política estricta de control de accesos basada en roles, asegurando que solo los usuarios autorizados tengan acceso a datos sensibles.
-- **Backups Regulares:** Realización de copias de seguridad periódicas de la base de datos, asegurando la disponibilidad de los datos en caso de pérdida o corrupción.
-- **Auditorías de Seguridad:** Implementación de auditorías de seguridad regulares para identificar vulnerabilidades y mitigar posibles riesgos de acceso no autorizado o manipulación de datos.
-- **Entrenamiento y Concientización en Seguridad:** Capacitación continua a empleados y supervisores sobre prácticas de seguridad, detección de amenazas y gestión segura de contraseñas.
-- **Política de Retención de Datos:** Implementación de políticas claras sobre la retención y eliminación de datos. Los datos deben ser eliminados cuando ya no sean necesarios para los fines para los cuales fueron recopilados.
+- *Cifrado de Datos:* Utilización de certificados SSL para proteger la transmisión de datos. Se recomienda implementar protocolos de seguridad adicionales, como TLS, para fortalecer la protección de la transmisión de datos.
+- *Autenticación Multifactor (MFA):* La autenticación de usuarios mediante MFA proporciona una capa adicional de seguridad para prevenir el acceso no autorizado. Es recomendable revisar y actualizar el sistema MFA periódicamente para asegurar su efectividad.
+- *Gestión de Accesos y Roles:* Implementación de una política estricta de control de accesos basada en roles, asegurando que solo los usuarios autorizados tengan acceso a datos sensibles.
+- *Backups Regulares:* Realización de copias de seguridad periódicas de la base de datos, asegurando la disponibilidad de los datos en caso de pérdida o corrupción.
+- *Auditorías de Seguridad:* Implementación de auditorías de seguridad regulares para identificar vulnerabilidades y mitigar posibles riesgos de acceso no autorizado o manipulación de datos.
+- *Entrenamiento y Concientización en Seguridad:* Capacitación continua a empleados y supervisores sobre prácticas de seguridad, detección de amenazas y gestión segura de contraseñas.
+- *Política de Retención de Datos:* Implementación de políticas claras sobre la retención y eliminación de datos. Los datos deben ser eliminados cuando ya no sean necesarios para los fines para los cuales fueron recopilados.
 
 **3. Riesgos Residuales**
 
 A pesar de las medidas implementadas, existen riesgos residuales asociados a la gestión de datos sensibles:
-- **Fugas de Datos:** Aunque se han tomado medidas para proteger los datos, siempre existe el riesgo de filtración de datos a través de vulnerabilidades imprevistas.
-- **Errores Humanos:** Los usuarios podrían accidentalmente modificar o divulgar información sensible debido a falta de capacitación o errores de manejo de contraseñas.
+- *Fugas de Datos:* Aunque se han tomado medidas para proteger los datos, siempre existe el riesgo de filtración de datos a través de vulnerabilidades imprevistas.
+- *Errores Humanos:* Los usuarios podrían accidentalmente modificar o divulgar información sensible debido a falta de capacitación o errores de manejo de contraseñas.
 
 #### 4. Plan de Mitigación
-- **Monitoreo Continuo de la Plataforma:** Implementar sistemas de monitoreo en tiempo real para detectar posibles vulnerabilidades o accesos no autorizados.
-- **Revisión y Mejora de Controles de Seguridad:** Establecer un ciclo de revisión regular de los controles de seguridad, incluyendo la autenticación y los accesos, para garantizar que sean adecuados a las amenazas emergentes.
-- **Revisión de Políticas de Privacidad:** Asegurarse de que las políticas de privacidad y protección de datos sean revisadas y actualizadas con regularidad para cumplir con las leyes y regulaciones aplicables (como el RGPD).
+- *Monitoreo Continuo de la Plataforma:* Implementar sistemas de monitoreo en tiempo real para detectar posibles vulnerabilidades o accesos no autorizados.
+- *Revisión y Mejora de Controles de Seguridad:* Establecer un ciclo de revisión regular de los controles de seguridad, incluyendo la autenticación y los accesos, para garantizar que sean adecuados a las amenazas emergentes.
+- *Revisión de Políticas de Privacidad:* Asegurarse de que las políticas de privacidad y protección de datos sean revisadas y actualizadas con regularidad para cumplir con las leyes y regulaciones aplicables (como el RGPD).
 
 ---
 ### B. Reflexiones sobre los temas éticos para SalaryBoost
 **1. Sesgo Algorítmico:** El sesgo algorítmico ocurre cuando un sistema automatizado toma decisiones que reflejan prejuicios o injusticias en función de los datos en los que fue entrenado. En el caso de Salaryboost, una plataforma que podría utilizar algoritmos para prever el salario potencial de un individuo en función de su formación, experiencia, habilidades y otros factores, es crucial identificar y mitigar cualquier sesgo en el algoritmo que pueda perpetuar desigualdades preexistentes.
 
-**Posibles fuentes de sesgo:**
-- **Datos históricos sesgados:** Si los datos utilizados para entrenar el algoritmo contienen sesgos de género, raza, orientación sexual u otros factores, el modelo podría reforzar estos sesgos al predecir el salario. Por ejemplo, si históricamente ciertos grupos han tenido menores salarios debido a discriminación, el algoritmo podría replicar esta disparidad.
+Posibles fuentes de sesgo:
+- *Datos históricos sesgados:* Si los datos utilizados para entrenar el algoritmo contienen sesgos de género, raza, orientación sexual u otros factores, el modelo podría reforzar estos sesgos al predecir el salario. Por ejemplo, si históricamente ciertos grupos han tenido menores salarios debido a discriminación, el algoritmo podría replicar esta disparidad.
 
-- **Selección de variables:** Las decisiones sobre qué variables incluir en el algoritmo (como la educación, la experiencia laboral, etc.) pueden estar influenciadas por prejuicios sociales y culturales. Si las variables seleccionadas no reflejan un contexto justo o equilibrado, el algoritmo puede favorecer ciertos perfiles sobre otros.
+- *Selección de variables:* Las decisiones sobre qué variables incluir en el algoritmo (como la educación, la experiencia laboral, etc.) pueden estar influenciadas por prejuicios sociales y culturales. Si las variables seleccionadas no reflejan un contexto justo o equilibrado, el algoritmo puede favorecer ciertos perfiles sobre otros.
 
 **Reflexión ética:** Es esencial que `Salaryboost` implemente procesos de `auditoría algorítmica` y realice `pruebas de sesgo` periódicas para asegurarse de que las recomendaciones salariales no estén perpetuando desigualdades injustas. También, debe considerar la implementación de `modelos de aprendizaje justo`, que minimicen las disparidades en las predicciones salariales para grupos históricamente desfavorecidos.
 
@@ -142,4 +142,7 @@ A pesar de las medidas implementadas, existen riesgos residuales asociados a la 
 
 **Reflexión ética:** `Salaryboost` debe asegurarse de que los usuarios den un consentimiento informado sobre el uso de sus datos. Esto incluye informarles sobre cómo se utilizarán sus datos, qué implicaciones tiene la recopilación de estos, y ofrecerles la opción de retirar su consentimiento en cualquier momento. Además, debe garantizar la `protección de datos` mediante el uso de `políticas de privacidad claras` y prácticas de seguridad de datos robustas.
 
-**Conclusión:** Al integrar estos principios éticos en el diseño y funcionamiento de Salaryboost, se promueve no solo un entorno más justo y equitativo para los usuarios, sino también una plataforma más confiable y respetuosa con los derechos de los individuos. Reflexionar sobre temas como el sesgo algorítmico, la transparencia y el consentimiento puede contribuir a crear una cultura ética en el desarrollo de tecnologías basadas en datos y algoritmos.
+---
+
+### C. Conclusión
+- Al integrar estos principios éticos en el diseño y funcionamiento de Salaryboost, se promueve no solo un entorno más justo y equitativo para los usuarios, sino también una plataforma más confiable y respetuosa con los derechos de los individuos. Reflexionar sobre temas como el sesgo algorítmico, la transparencia y el consentimiento puede contribuir a crear una cultura ética en el desarrollo de tecnologías basadas en datos y algoritmos.
