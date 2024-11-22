@@ -79,3 +79,13 @@ En resumen, SalaryBoost garantiza la privacidad de los empleados mediante técni
 ## Sección de Ética
 ---
 ### A. Evaluación de Impacto en la Protección de Datos (DPIA) para SalaryBoost
+
+#### 1. Descripción del Flujo de Datos
+SalaryBoost gestiona una variedad de datos de los empleados y supervisores. Estos datos incluyen información personal (como nombre, fecha de nacimiento, y género), información laboral (como salario mensual y rendimiento), y credenciales de acceso. Los datos son introducidos en el sistema por los supervisores y empleados, procesados y almacenados en bases de datos, y protegidos por medidas de seguridad como cifrado SSL, autenticación multifactor, y políticas de control de acceso.
+
+El flujo de los datos incluye:
+- **Recopilación de Datos:** Los supervisores ingresan datos del empleado, que pueden incluir información personal y laboral.
+- **Almacenamiento de Datos:** Los datos se almacenan en bases de datos protegidas, con acceso restringido.
+- **Acceso a Datos:** Supervisores y empleados acceden a datos de acuerdo con sus roles, y pueden modificar o eliminar ciertos datos bajo permisos específicos.
+- **Uso de Datos:** Los supervisores utilizan estos datos para tomar decisiones relacionadas con el desempeño y compensación de los empleados.
+- **Transferencia de Datos:** Se utiliza cifrado para garantizar que los datos no sean interceptados durante el tránsito.
