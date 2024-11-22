@@ -99,7 +99,8 @@ El flujo de los datos incluye:
 - **Violación de la Privacidad:** La exposición de datos personales (como salario o calificaciones) podría violar los derechos de privacidad de los empleados.
 
 #### 3. Evaluación de Impacto
-**1. Evaluación de la Necesidad y Proporcionalidad de la Recopilación de Datos: ** La recopilación de datos en SalaryBoost se justifica en función de las necesidades empresariales: gestionar el rendimiento de los empleados, aplicar aumentos salariales y realizar seguimiento de la productividad. Sin embargo, se debe garantizar que la cantidad de datos recopilados sea proporcional al objetivo, evitando la recopilación excesiva de información personal.
+**1. Evaluación de la Necesidad y Proporcionalidad de la Recopilación de Datos** \\
+La recopilación de datos en SalaryBoost se justifica en función de las necesidades empresariales: gestionar el rendimiento de los empleados, aplicar aumentos salariales y realizar seguimiento de la productividad. Sin embargo, se debe garantizar que la cantidad de datos recopilados sea proporcional al objetivo, evitando la recopilación excesiva de información personal.
 
 **2. Medidas para Mitigar los Riesgos Identificados** 
 - **Cifrado de Datos:** Utilización de certificados SSL para proteger la transmisión de datos. Se recomienda implementar protocolos de seguridad adicionales, como TLS, para fortalecer la protección de la transmisión de datos.
@@ -110,7 +111,8 @@ El flujo de los datos incluye:
 - **Entrenamiento y Concientización en Seguridad:** Capacitación continua a empleados y supervisores sobre prácticas de seguridad, detección de amenazas y gestión segura de contraseñas.
 - **Política de Retención de Datos:** Implementación de políticas claras sobre la retención y eliminación de datos. Los datos deben ser eliminados cuando ya no sean necesarios para los fines para los cuales fueron recopilados.
 
-**3. Riesgos Residuales:** A pesar de las medidas implementadas, existen riesgos residuales asociados a la gestión de datos sensibles:
+**3. Riesgos Residuales** \\
+A pesar de las medidas implementadas, existen riesgos residuales asociados a la gestión de datos sensibles:
 - **Fugas de Datos:** Aunque se han tomado medidas para proteger los datos, siempre existe el riesgo de filtración de datos a través de vulnerabilidades imprevistas.
 - **Errores Humanos:** Los usuarios podrían accidentalmente modificar o divulgar información sensible debido a falta de capacitación o errores de manejo de contraseñas.
 
