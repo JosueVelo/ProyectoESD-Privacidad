@@ -111,7 +111,7 @@ La recopilación de datos en SalaryBoost se justifica en función de las necesid
 - **Entrenamiento y Concientización en Seguridad:** Capacitación continua a empleados y supervisores sobre prácticas de seguridad, detección de amenazas y gestión segura de contraseñas.
 - **Política de Retención de Datos:** Implementación de políticas claras sobre la retención y eliminación de datos. Los datos deben ser eliminados cuando ya no sean necesarios para los fines para los cuales fueron recopilados.
 
-**3. Riesgos Residuales** \\
+**3. Riesgos Residuales**\\
 A pesar de las medidas implementadas, existen riesgos residuales asociados a la gestión de datos sensibles:
 - **Fugas de Datos:** Aunque se han tomado medidas para proteger los datos, siempre existe el riesgo de filtración de datos a través de vulnerabilidades imprevistas.
 - **Errores Humanos:** Los usuarios podrían accidentalmente modificar o divulgar información sensible debido a falta de capacitación o errores de manejo de contraseñas.
