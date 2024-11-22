@@ -1,8 +1,5 @@
-# Proyecto Ética y Seguridad de Datos
-
-## Privacidad
+# Proyecto Ética y Seguridad de Datos / Privacidad 
 ---
-
 ## A. Clasificación de los Datos de Empleados
 
 ### 1. Datos Personales
