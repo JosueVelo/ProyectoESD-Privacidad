@@ -92,7 +92,7 @@ El flujo de los datos incluye:
   
 ---
 
-### B. Identificación de Riesgos
+#### 2. Identificación de Riesgos
 **Riesgos Potenciales:**
 - **Acceso No Autorizado:** Los datos podrían ser accedidos por usuarios no autorizados debido a fallos en la gestión de accesos o credenciales comprometidas.
 - **Pérdida de Datos:** Pérdida de datos sensibles debido a fallos del sistema o incidentes de seguridad, como ataques de malware o ransomware.
@@ -102,11 +102,11 @@ El flujo de los datos incluye:
 
 --- 
 
-### C. Evaluación de Impacto
-#### **1. Evaluación de la Necesidad y Proporcionalidad de la Recopilación de Datos** 
+#### 3. Evaluación de Impacto
+**1. Evaluación de la Necesidad y Proporcionalidad de la Recopilación de Datos** 
 La recopilación de datos en SalaryBoost se justifica en función de las necesidades empresariales: gestionar el rendimiento de los empleados, aplicar aumentos salariales y realizar seguimiento de la productividad. Sin embargo, se debe garantizar que la cantidad de datos recopilados sea proporcional al objetivo, evitando la recopilación excesiva de información personal.
 
-#### **2. Medidas para Mitigar los Riesgos Identificados** 
+**2. Medidas para Mitigar los Riesgos Identificados** 
 - **Cifrado de Datos:** Utilización de certificados SSL para proteger la transmisión de datos. Se recomienda implementar protocolos de seguridad adicionales, como TLS, para fortalecer la protección de la transmisión de datos.
 - **Autenticación Multifactor (MFA):** La autenticación de usuarios mediante MFA proporciona una capa adicional de seguridad para prevenir el acceso no autorizado. Es recomendable revisar y actualizar el sistema MFA periódicamente para asegurar su efectividad.
 - **Gestión de Accesos y Roles:** Implementación de una política estricta de control de accesos basada en roles, asegurando que solo los usuarios autorizados tengan acceso a datos sensibles.
@@ -115,14 +115,14 @@ La recopilación de datos en SalaryBoost se justifica en función de las necesid
 - **Entrenamiento y Concientización en Seguridad:** Capacitación continua a empleados y supervisores sobre prácticas de seguridad, detección de amenazas y gestión segura de contraseñas.
 - **Política de Retención de Datos:** Implementación de políticas claras sobre la retención y eliminación de datos. Los datos deben ser eliminados cuando ya no sean necesarios para los fines para los cuales fueron recopilados.
 
-#### **3. Riesgos Residuales** 
+**3. Riesgos Residuales** 
 A pesar de las medidas implementadas, existen riesgos residuales asociados a la gestión de datos sensibles:
 - **Fugas de Datos:** Aunque se han tomado medidas para proteger los datos, siempre existe el riesgo de filtración de datos a través de vulnerabilidades imprevistas.
 - **Errores Humanos:** Los usuarios podrían accidentalmente modificar o divulgar información sensible debido a falta de capacitación o errores de manejo de contraseñas.
 
 ---
 
-### D. Plan de Mitigación
+#### D. Plan de Mitigación
 - **Monitoreo Continuo de la Plataforma:** Implementar sistemas de monitoreo en tiempo real para detectar posibles vulnerabilidades o accesos no autorizados.
 - **Revisión y Mejora de Controles de Seguridad:** Establecer un ciclo de revisión regular de los controles de seguridad, incluyendo la autenticación y los accesos, para garantizar que sean adecuados a las amenazas emergentes.
 - **Revisión de Políticas de Privacidad:** Asegurarse de que las políticas de privacidad y protección de datos sean revisadas y actualizadas con regularidad para cumplir con las leyes y regulaciones aplicables (como el RGPD).
