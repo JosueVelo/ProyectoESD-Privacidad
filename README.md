@@ -1,4 +1,6 @@
-# Proyecto Ética y Seguridad de Datos / Privacidad 
+# Proyecto Ética y Seguridad de Datos 
+---
+## Parte 1: Privacidad 
 ---
 ### A. Clasificación de los Datos de Empleados
 
@@ -28,7 +30,7 @@
 
 ---
 
-## B. Técnicas de Privacidad - Datos
+### B. Técnicas de Privacidad - Datos
 
 1. **Anonimización:** Se eliminan completamente las columnas que contienen información identificable como `EmpID`, `FirstName` , `LastName`, `JobFunctionDescription`, `Title`, `Password`, `PayZone`, y `RaceDesc`. Esto elimina los datos personales que podrían identificar a los individuos directamente.
 
@@ -45,7 +47,7 @@ Estas técnicas permiten procesar y analizar los datos de empleados manteniendo 
 
 ---
 
-## C. Funcionalidades de Privacidad en SalaryBoost
+### C. Funcionalidades de Privacidad en SalaryBoost
 
 1. **Empleado / "Modificar Contraseña"**:
    - La opción de **modificar contraseña** permite a los empleados gestionar su acceso de manera autónoma, garantizando que solo ellos puedan acceder a sus cuentas. Este control sobre sus credenciales es fundamental para proteger la privacidad de los datos personales y de acceso, alineándose con principios de autonomía y control del usuario que establece el Reglamento General de Protección de Datos (RGPD).
@@ -59,7 +61,7 @@ Estas técnicas permiten procesar y analizar los datos de empleados manteniendo 
 4. **Supervisor / "Modificar Contraseña"**:
    - Los supervisores también pueden modificar la contraseña de un empleado, lo cual puede ser útil para situaciones de seguridad o cuando un empleado olvida sus credenciales. Esto asegura que el acceso al sistema se mantenga controlado y seguro. Esta función está alineada con las medidas de seguridad requeridas bajo el RGPD, que establece que los datos deben ser protegidos mediante medidas técnicas y organizativas adecuadas para evitar el acceso no autorizado.
 
-### Cumplimiento con el RGPD:
+#### Cumplimiento con el RGPD:
 Las funcionalidades mencionadas son esenciales para **SalaryBoost** al cumplir con varios principios clave del **RGPD**, como:
 - **Control del usuario**: Brindar al empleado la capacidad de modificar su contraseña y actualizar sus datos personales, asegurando su autonomía sobre la información que se recopila y gestiona.
 - **Precisión de los datos**: Permitir la modificación de datos garantiza que la información almacenada en el sistema esté siempre actualizada y sea precisa, cumpliendo con el principio de exactitud.
@@ -70,5 +72,5 @@ Estas medidas garantizan que **SalaryBoost** no solo protege la privacidad de lo
 
 ---
 
-## D. Conclusión 
+### D. Conclusión 
 En resumen, SalaryBoost garantiza la privacidad de los empleados mediante técnicas como anonimización, pseudonimización, privacidad diferencial y K-Anonimato, alineándose con el RGPD. Las funcionalidades clave, como la capacidad de modificar contraseñas, actualizar datos y eliminar registros, permiten a los empleados controlar su información personal, asegurando su precisión, seguridad y limitación del almacenamiento. Estas medidas protegen la privacidad de los empleados y aseguran el cumplimiento de normativas internacionales de protección de datos.
