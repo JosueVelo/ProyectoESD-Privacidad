@@ -89,3 +89,16 @@ El flujo de los datos incluye:
 - **Acceso a Datos:** Supervisores y empleados acceden a datos de acuerdo con sus roles, y pueden modificar o eliminar ciertos datos bajo permisos específicos.
 - **Uso de Datos:** Los supervisores utilizan estos datos para tomar decisiones relacionadas con el desempeño y compensación de los empleados.
 - **Transferencia de Datos:** Se utiliza cifrado para garantizar que los datos no sean interceptados durante el tránsito.
+  
+---
+
+### B. Identificación de Riesgos
+**Riesgos Potenciales:**
+- **Acceso No Autorizado:** Los datos podrían ser accedidos por usuarios no autorizados debido a fallos en la gestión de accesos o credenciales comprometidas.
+- **Pérdida de Datos:** Pérdida de datos sensibles debido a fallos del sistema o incidentes de seguridad, como ataques de malware o ransomware.
+- **Uso indebido de Datos:** Supervisores o empleados podrían modificar, eliminar o divulgar datos de forma inapropiada.
+- **Vulnerabilidades en la Transmisión de Datos:** A pesar del cifrado SSL, podría haber vulnerabilidades en la transmisión de datos o en puntos de acceso no protegidos.
+- **Violación de la Privacidad:** La exposición de datos personales (como salario o calificaciones) podría violar los derechos de privacidad de los empleados.
+
+--- 
+### C. Evaluación de Impacto
